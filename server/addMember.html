@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/api/add_member" enctype="multipart/form-data" method="POST"> 
+        <input type="text" placeholder="ID" name="ID" /><br>
+        <input type="text"  placeholder="Surname" name="Surname" /><br>
+        <input type="text"  placeholder="Othernames" name="Othernames" /><br>
+        <input type="date"  placeholder="DOB" name="DOB"/><br>
+        <select name="Gender"  >
+            <option>Male</option>
+            <option>Female</option>
+        </select><br>
+        <input type="text" placeholder="Postal address" name="Postal address"/><br>
+        <input type="text"  placeholder="Residence" name="Residence" /><br>
+        <input type="text" placeholder="Hometown" name="Hometown"/><br>
+        <input type="file" name="image" /><br>
+        <input type="submit" value="Add Member"/><br>
+     </form>
+</body>
+</html>
